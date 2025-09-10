@@ -33,17 +33,17 @@ nivel_xp = int(nivel_xp_str)
 
 if nivel_xp < 1000:
     classificacao = "Ferro"
-elif nivel_xp <= 1001 or nivel_xp <= 2000:
+elif nivel_xp >= 1001 or nivel_xp <= 2000:
     classificacao = "Bronze"
-elif nivel_xp <= 2001 or nivel_xp <= 5000:
+elif nivel_xp >= 2001 or nivel_xp <= 5000:
     classificacao = "Prata"
-elif nivel_xp <= 5001 or nivel_xp <= 7000:
+elif nivel_xp >= 5001 or nivel_xp <= 7000:
     classificacao = "Ouro"
-elif nivel_xp <= 7001 or nivel_xp <= 8000:
+elif nivel_xp >= 7001 or nivel_xp <= 8000:
     classificacao = "Platina Diamante"
-elif nivel_xp <= 8001 or nivel_xp <= 9000:
+elif nivel_xp >= 8001 or nivel_xp <= 9000:
     classificacao = "Ascendente"
-elif nivel_xp <= 9001 or nivel_xp <= 10000:
+elif nivel_xp >= 9001 or nivel_xp <= 10000:
     classificacao = "Imortal"
 elif nivel_xp >= 10001:
     classificacao = "Radiante"
